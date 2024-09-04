@@ -1,0 +1,486 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+    /* margin-bottom: -15px; */
+}
+body{
+    font-family: "Segoe UI", 'Roboto', "Helvetica Neue", Arial, "Noto Sans";
+    
+}
+.first-nav{
+    width: 100%;
+    height: 50px;
+    border-bottom: solid 1px #5f5f5f3d;
+    /* position: fixed; */
+    /* z-index: 100; */
+    /* background-color: #5f5f5f3d; */
+}
+.nav-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+
+}
+.nav-body img{
+    width: 13px;
+    padding-right: 10px;
+}
+.nav-body p{
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+.nav-body button{
+    border: 0;
+    background-color: #202124;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 11px;
+    font-weight: 600;
+
+}
+.countainer{
+    height: 100px;
+    width: 100%;
+    display:grid;
+    grid-template-columns: 30% 30%;
+    justify-content: space-between;
+    /* position: fixed ;
+    z-index: 100;
+    background-color: #fff; */
+    
+    
+}
+.first-div{
+    height: 100px; 
+      width: 750px;
+    margin-top: 25px;
+    margin: 0;
+}
+.kfc-font{
+    justify-content: center;
+    margin-left:130px ;
+    margin-top: 41px ; 
+}
+.menu{
+    text-align: center;
+    margin-right: 213px;
+    position: relative;
+    bottom: 26px;
+    font-weight: 600;
+    font-size:13.5px;
+    font-family: inherit;
+    text-decoration: none;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.deals{
+    text-align: center;
+    position: relative;
+    right: 30px;
+    bottom: 43px;
+    font-weight: 600;
+    font-size: 13.5px;
+    font-family: inherit;  
+
+}
+.deals a{
+    text-decoration: none;
+    color: black;
+}
+.second-div{
+  height: 100px;
+
+}
+.account-logo{
+    justify-content: center;
+    margin-left:  137px;
+    margin-top:    43px;
+
+}
+.sign{
+    text-align: center;
+    font-weight: 700;
+}
+.sign a{
+    color: black;
+    position: relative;
+    bottom: 30px;
+    right: 34px;
+    font-size: 14px;
+    text-decoration:none;
+}
+.aa{
+    background-color: rgba(115, 105, 105, 0.558);
+ text-align: center;
+ margin-top: -50px;
+ width:1px;
+ margin-left: 232px;
+ 
+}
+.aa a{
+    position: relative;
+    left: 17px;
+    font-size:14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.brost-div{
+    margin-left: 281px;
+    margin-top: -50px;
+}
+.countainer-2{
+    background-color: #202124;
+    height: 75px;
+    width: 100%;
+}
+.textbar-div{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top:24px;
+    padding-right: 150px;
+    cursor: pointer;
+}
+.btn-order{
+    background-color:#e4002b;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    height:44px;
+    width: 146px;
+    position: relative;
+    left: 30px;
+    bottom: 8px;
+}
+.backgrount{
+    width: 100%;
+}
+.white-div{
+    grid-template-columns: 30px 50px;
+    justify-content: space-between;
+    /* background-color: yellow; */
+}
+.bar-div{
+    /* background-color: #e4002b; */
+    height: 113px;
+    width: 100%;
+}
+.categorise{
+   /* background-color: violet; */
+   padding-left: 221px;
+   padding-top: 71px;
+   font-style: normal;
+   color: #202124;
+   font-size: 36px;
+   font-weight: 700;
+   /* cursor: pointer; */
+   /* letter-spacing: 1px; */
+   text-transform: uppercase;
+}
+.vara{
+    background-color: black;
+    height: 1px;
+    width:750px;
+    margin-left: 654px;
+    position: relative;
+    bottom: 20px;
+
+     
+    
+}
+.products-div{
+    height: 637px;
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    justify-content: space-between;
+  
+}
+.burger1-div{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.burger1{
+    height: 199px;
+    width: 268px;
+    border-radius: 5px;
+}
+.fest-div{
+    height: 40px;
+    width: 266px;
+}
+.fest{
+    text-align: center;
+    font-weight: 700;
+    color: #202124;
+    padding-top: 8px;
+}
+.match-div{
+    height: 40px;
+    width: 266px;
+}
+.match{
+    text-align: center;
+    font-weight: 700;
+    color: #202124;
+    padding-top: 8px;
+}
+.combo-div{
+   margin-left:10px ;
+   margin-top: 10px;
+}
+.combo{
+    height: 199px;
+    width: 268px;
+    border-radius: 5px;
+}
+.special-div{
+    margin-left: -125px;
+    margin-top: 10px;
+}
+.special{
+    height: 199px;
+    width: 268px;
+    border-radius: 5px;
+}
+.value-div{
+    height: 40px;
+    width: 266px;
+}
+.value{
+    text-align: center;
+    font-weight: 700;
+    color: #202124;
+    padding-top: 8px;
+}
+.meals-div{
+    margin-left: -262px;
+    margin-top: 10px;
+}
+.meal{
+    height: 199px;
+    width: 268px;
+    border-radius: 5px;
+}
+.box-div{
+    height: 40px;
+    width: 266px;
+}
+.box{
+    text-align: center;
+    font-weight: 700;
+    color: #202124;
+    padding-top: 8px;
+}
+.burgers-div{
+    height: 40px;
+    width: 266px;
+}
+.burgers{
+    text-align: center;
+    font-weight: 700;
+    color: #202124;
+    padding-top: 8px;
+}
+.burger2-div{
+    margin-top: 199px;
+    margin-left: 150px;
+
+
+}
+.burger2{
+    height: 199px;
+    width: 268px;
+    border-radius: 5px;
+}
+.chicken-div{
+    margin-left: 10px;
+    margin-top: 199px;
+}
+.chicken{
+    height: 199px;
+    width: 268px;
+    border-radius: 5px;
+}
+.bucket-div{
+    height: 40px;
+    width: 266px;
+}
+.bucket{
+    text-align: center;
+    font-weight: 700;
+    color: #202124;
+    padding-top: 8px;
+}
+.rice-div{
+    margin-left: -125px;
+    margin-top: 199px;
+}
+.rice{
+    height: 199px;
+    width: 268px;
+    border-radius: 5px;
+}
+.bowl-div{
+    height: 40px;
+    width: 266px;
+}
+.bowl{
+    text-align: center;
+    font-weight: 700;
+    color: #202124;
+    padding-top: 8px;
+}
+.view-div{
+    height: 40px;
+    width: 266px;
+}
+.view{
+    text-align: center;
+    font-weight: 700;
+    color: #202124;
+    padding-top: 8px;
+}
+.all-div{
+    margin-left: -262px;
+    margin-top: 199px;
+}
+.all{
+    height: 199px;
+    width: 268px;
+    border-radius: 5px;
+}
+.black-div{
+    background-color:#212529;
+    height: 850px;
+    width: 100%;
+}
+.screen{
+    padding-top: 189px;
+    padding-left: 100px;
+    width: 1091px;
+    height: 429px;
+}
+.line-div{
+    padding-left: 131px;
+}
+.text1-div{
+    margin-left: 130px;
+    /* text-align: center; */
+    color: #fff;
+    margin-top: 50px;
+    font-size: 33px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.dis{
+  float: right;
+  padding-top: 196px;
+  border-radius: 15px ;
+ width: 315px;
+    height: 400px;
+}
+.vara2{
+    margin-left: 53px;
+
+}
+.underlogo-div{
+    width: 100%;
+    
+}
+.underlogo{
+    margin-left: 58px;
+    margin-top: 185px;
+}
+
+.about1{
+list-style: none;
+padding-left:  168px;
+position: relative;
+bottom: 50px;
+top: -70px;
+color: #fff;
+
+
+}
+
+.about2{
+    display: inline;
+    list-style: none;
+  position: relative;
+  left: 391px;
+  top: -201px;
+  color: #fff;
+}
+.about3{
+    display: inline;
+    list-style: none;
+  position: relative;
+  left: 645px;
+  top: -315px;
+  color: #fff;
+}.about4-div{
+    margin-bottom: -15px;
+
+}
+.about4{
+    display: inline;
+    list-style: none;
+  position: relative;
+  left: 850px;
+  top: -427px;
+  color: #fff ;
+}
+.find-div{
+    float: right;
+    margin-bottom: 50px;
+    margin-right: 342px;
+    margin-top: -540px;
+}
+/* .find{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+.stores-div{
+    /* background-color: #e4002b; */
+    /* float: right;
+    margin-top: -580px;
+
+/* } */
+/* .playstore{
+    width: 150px;
+    height: 80px;
+} */ 
+/* .appstore{
+    width: 150px;
+    height: 80px;
+0} */ 
+/* .lasticon-div{
+    background-color: #e4002b;
+    height: 0px;
+    width: 100vh;
+    margin-top: -405px;
+    float: right;
+    margin-right: -415px;
+} */
+.last-div{
+    height: 280px;
+    width: 100%;
+    background-color: ;
+    margin-top: 1900px;
+
+ }
+ .last-ok{
+    width: 100%;
+ }
